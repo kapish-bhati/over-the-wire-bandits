@@ -1,0 +1,18 @@
+login to the level 1 lab
+by runnign the follwing in your shell
+> ssh bandit3@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
+here we are to find a hidden file
+and file that starts with the character "." is by default hidden from the normal eye in linux
+
+to view these files use the '-a' flag in the ls command
+
+execute the following commands
+
+$ ls
+$ cd inhere
+$ ls -al
+$ cat ...Hiding-From-You
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+this is the password
