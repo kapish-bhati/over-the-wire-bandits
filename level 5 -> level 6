@@ -1,0 +1,26 @@
+login to the level 1 lab
+by runnign the follwing in your shell
+> ssh bandit1@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
+the website fives us some properties of the file which holds the password
+they are
+human-readable
+1033 bytes in size
+not executable
+
+here we use the find command
+https://www.redhat.com/sysadmin/linux-find-command
+highly suggest reading this blog
+
+execute the following commands
+$ ls
+$ cd inhere
+$ ls -la
+$ find ./ -type f -size 1033c ! -executable
+      file type  1033 bytes insize  not executable
+
+$ cat ./maybehere07/.file2
+HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+the password
