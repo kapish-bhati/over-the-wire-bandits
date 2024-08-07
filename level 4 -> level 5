@@ -1,0 +1,32 @@
+login to the level 1 lab
+by runnign the follwing in your shell
+> ssh bandit4@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
+here you could either open all files one by one but that is ot very efficient
+
+thus we use a wildcard
+
+execute the following commands
+
+$ ls
+$ cd inhere
+$ ls -l
+$ file ./*
+this gives the following output
+./-file00: data
+./-file01: data
+./-file02: data
+./-file03: data
+./-file04: data
+./-file05: data
+./-file06: data
+./-file07: ASCII text
+./-file08: data
+./-file09: data
+
+from the 10 files only file 7 is in human readable ASCII text
+thus that holds the password
+$cat <-file07
+4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+the password
