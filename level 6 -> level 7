@@ -3,3 +3,20 @@ by runnign the follwing in your shell
 > ssh bandit6@bandit.labs.overthewire.org -p 2220
 and enter the password as found earlier
 
+here we are given a new set of properties
+owned by user bandit7
+owned by group bandit6
+33 bytes in size
+
+use the find command again
+$ find / -type f -user bandit7 -group bandit6 -size 33c
+....
+/var/lib/dpkg/info/bandit7.password
+...
+
+here we have only one file that does not have a "permission denied" error
+
+we read the contents of that file
+$ cat /var/lib/dpkg/info/bandit7.password
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+the password
