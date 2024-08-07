@@ -1,0 +1,4 @@
+login to the level 8 lab
+by runnign the follwing in your shell
+> ssh bandit81@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
