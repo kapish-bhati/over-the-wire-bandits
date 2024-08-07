@@ -1,0 +1,12 @@
+login to the level 1 lab
+by runnign the follwing in your shell
+> ssh bandit7@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
+here we are given a data.txt file with a LOT of data entries
+to get the desired entry we use grep command
+
+$ grep "millionth" data.txt
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+the password
