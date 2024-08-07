@@ -1,0 +1,5 @@
+login to the level 1 lab
+by runnign the follwing in your shell
+> ssh bandit6@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
