@@ -1,0 +1,21 @@
+The main thing you need to know about level 0 is SSH login
+SSH stands for Secure SHell (also known as Secure Socket Shell)
+It is an internet protocol thet sets up a client server connection, and it uses asymmetric cryptography to encrypt data.
+
+ SSH sets up a connection between a user's device and a faraway machine, often a server. 
+Here you will be connecting to the OTW's bandit lab, which provides you a playground with restricted permissions to try the tasks provided
+
+https://www.youtube.com/watch?v=L_Xxs2Tp62s
+higly suggest watching this video
+
+
+some links to help you understand SSH
+https://www.cloudflare.com/learning/access-management/what-is-ssh/#:~:text=Remote%20encrypted%20connections%3A%20SSH%20sets,nothing%20unless%20it%20is%20decrypted.
+https://www.youtube.com/watch?v=Atbl7D_yPug
+https://www.youtube.com/watch?v=5JvLV2-ngCI
+
+
+To solve this level
+1. OPEN POWERSHELL (windows) OR TERMINAL (mac)
+2. Type the following command:
+      ssh bandit0@bandit.labs.overthewire.org -p 2220
