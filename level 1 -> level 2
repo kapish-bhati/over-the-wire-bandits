@@ -1,3 +1,8 @@
+login to the level 1 lab
+by runnign the follwing in your shell
+> ssh bandit1@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
 here we have to read a dashed file 
 
 execute the following commands
