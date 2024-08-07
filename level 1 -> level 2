@@ -1,0 +1,27 @@
+here we have to read a dashed file 
+
+execute the following commands
+$ls
+-
+$ cat <-
+263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+this is the password
+
+theory:
+to read a dashed file you have multiple ways
+1. redirection (as i did)
+    cat < -file_name
+
+2. specifying the path
+    cat /home/bandit1/-
+
+3. more command
+    more - 
+
+4. rev utility
+    rev - | rev
+all work and have the same effect
+
+resource
+https://stackoverflow.com/questions/42187323/how-to-open-a-dashed-filename-using-terminal
