@@ -1,0 +1,25 @@
+The following commands are to be executed while you have logged into bandit0 lab
+
+background info
+ls - lists the files in a the present working directory (PWD)
+can be used with flags
+ls -l lists the files with details
+ls -a lists ALL files
+ls -al or -la lists ALL files WITH details
+
+cat <filename>
+reads the entire content of file in the terminal itself
+one cannot edit through this command
+it is view only
+
+$ ls
+you will encounter a readme file
+open the file
+
+$ cat readme
+find the password
+
+$ exit
+
+the password is:
+ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
