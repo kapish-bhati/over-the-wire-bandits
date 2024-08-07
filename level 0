@@ -19,3 +19,7 @@ To solve this level
 1. OPEN POWERSHELL (windows) OR TERMINAL (mac)
 2. Type the following command:
       ssh bandit0@bandit.labs.overthewire.org -p 2220
+      type in the password: bandit0
+      and connect
+
+here are the sceenshots of the same
