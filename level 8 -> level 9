@@ -2,3 +2,17 @@ login to the level 8 lab
 by runnign the follwing in your shell
 > ssh bandit81@bandit.labs.overthewire.org -p 2220
 and enter the password as found earlier
+
+here we have to find the only entry that occurs once
+
+we use sort command with uniq flag
+
+$ sort data.txt 
+sorts the entries in alphabetical order
+
+$sort data.txt | uniq
+sorts entries and prints each entry only once
+
+$sort data.txt | uniq -u 
+prints the entry that occurs just one (in this case the password)
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
