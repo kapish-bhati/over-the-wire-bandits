@@ -1,0 +1,12 @@
+login to the level 9 lab
+by runnign the follwing in your shell
+> ssh bandit9@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
+here we use strings command
+this command searches through a file of binary data and finds and prints sequence o printable ASCII characters
+
+$ stings data.txt |grep "=="
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey  
+
+this is the password
