@@ -1,0 +1,13 @@
+here out target file has spaces in the filename
+the CLI takes into accunt only the first argument and the others create issues
+
+using double qoutes (" ") or single quotes (' ') are an easy workaround this situation
+
+execute the following commands
+
+$ls
+spaces in the filename
+$ cat "spaces in the filename"
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+this is the password
