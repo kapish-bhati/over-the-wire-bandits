@@ -1,4 +1,4 @@
-login to the level 1 lab
+login to the level 5 lab
 by runnign the follwing in your shell
 > ssh bandit5@bandit.labs.overthewire.org -p 2220
 and enter the password as found earlier
