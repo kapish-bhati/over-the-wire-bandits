@@ -1,0 +1,9 @@
+login to the level 10 lab
+by runnign the follwing in your shell
+> ssh bandit10@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
+here we use base64 command for linux with the flag -d to decode the given string
+
+$ base64 data.txt -d
+The password is dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
