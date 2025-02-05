@@ -1,0 +1,11 @@
+login to the level 11 lab
+by runnign the follwing in your shell
+> ssh bandit11@bandit.labs.overthewire.org -p 2220
+and enter the password as found earlier
+
+here the pass key is rotated by 12 that is each letter is shifter by 13 letters 
+
+we use tr function which stands for translate
+
+~$ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+The password is 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
